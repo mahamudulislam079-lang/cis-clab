@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS Club - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>CIS Club</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="members.html">Members/Join</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-slider-container">
+            <div class="slider" id="hero-slider">
+                <div class="slide active-slide">
+                    <img src="images/hero-1.jpg" alt="Students collaborating on a programming project" aria-label="First hero slide image">
+                    <div class="hero-text">
+                        <h2>Welcome to the CIS Club!</h2>
+                        <p>Where code meets community. Join us to learn and grow.</p>
+                    </div>
+                </div>
+                </div>
+            <button class="slider-nav prev">❮</button>
+            <button class="slider-nav next">❯</button>
+        </section>
+
+        <section id="welcome" class="content-section">
+            <h2>Start Your Tech Journey</h2>
+            <p>The CIS Club is dedicated to supporting students in their Computing and Information System studies, hosting workshops, coding challenges, and networking events.</p>
+        </section>
+
+        <section id="featured-event" class="content-section">
+            <h2>Featured Event: Fall Hackathon</h2>
+            <div class="event-card">
+                <p>Join our annual 48-hour coding marathon! Free food, prizes, and networking opportunities.</p>
+                <a href="event-detail.html?id=hackathon" class="button">View Details</a>
+            </div>
+        </section>
+
+        <section id="join-cta" class="cta-section">
+            <h2>Ready to Join the Community?</h2>
+            <p>Gain access to resources, exclusive workshops, and connect with peers.</p>
+            <a href="members.html" class="button primary-button">Join Now!</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="contact.html">Contact Us</a>
+            <a href="resources.html">Resources</a>
+            <a href="about.html">Our Team</a>
+        </div>
+        <p>&copy; 2025 CIS Club. Daffodil International University.</p>
+    </footer>
+
+    <button id="scroll-to-top" title="Go to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
